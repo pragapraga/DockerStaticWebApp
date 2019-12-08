@@ -22,3 +22,4 @@ COPY . /usr/share/nginx/html
 - 1st Line - Every Docker Image should have an Base image, since we are going to display a static web page, we use nginx and alpine
 - 2nd Line - We are copying the current directory's content (I mean 4.1, 4.2, 4.3, 4.4) to /usr/share/nginx/html inside the container's file system.
 
+Thanks
